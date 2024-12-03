@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8; 
+    padding: 0px 70px;
+    height:500px;   
+}
+.header-top{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.header .logo{
+    font-weight:bold;
+    font-size: 24px;
+    
+}
+
+.awesome{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight:900;
+    width: 500px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    height:250px;
+    
+}
+
+.awesome .subtext,
+.header-links{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight:normal;
+}
+
+ul{
+    list-style:none;
+    display:flex;
+    margin-right: 10px;
+    
+    
+}
+
+ul li{
+    margin-right: 20px;
+}
+
+.image-placeholder{
+    width: 600px;
+    height: 250px;
+    background: rgb(142, 142, 142);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:flex-start;
+    margin-left:50px;
+
+}
+
+.awesome button{
+    background: linear-gradient(180deg, #0071dc 0%, #23adf1 100%);
+    border: 1px solid #007ce3;
+    border-radius: 5px;
+    box-shadow: 0 3px 9px 0 rgba(0, 125, 227, 0.5);
+    color: #ffffff;
+    padding: 10px 20px;
+    width:100px;
+    
+}
+
+.header-text-and-image{
+    display:flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    align-items:center;
+  
+    
+}
+
+
+
+
+
+
